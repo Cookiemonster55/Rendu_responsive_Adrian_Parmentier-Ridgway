@@ -1,0 +1,70 @@
+
+.image{
+    animation: 7s colorchangeborder linear infinite;
+}
+
+.navbar{
+    animation: 7s colorchange linear infinite;
+}
+
+.separateur{
+    animation: 7s colorchange linear infinite;
+}
+
+footer{
+    animation: 7s colorchange linear infinite;
+}
+
+@keyframes colorchange{
+
+    0%{
+        background-color: rgb(255, 187, 0);
+    }
+
+    25%{
+        
+        background-color: red;
+    }
+
+    50%{
+         
+        background-color: rgb(42, 157, 26);
+    }
+
+    75%{
+         
+        background-color: rgb(21, 145, 246);
+    }
+
+    100%{
+         
+        background-color: rgb(255, 187, 0);
+    }
+
+}
+
+@keyframes colorchangeborder{
+
+    0%{
+        border: 3px solid rgb(255, 187, 0);
+    }
+
+    25%{
+        border: 7px solid red;
+    }
+
+    50%{
+        border: 3px solid rgb(42, 157, 26);
+    }
+
+    75%{ 
+        border: 7px solid rgb(21, 145, 246);
+    }
+
+    100%{
+        border: 3px solid rgb(255, 187, 0);
+    }
+
+}
+
+

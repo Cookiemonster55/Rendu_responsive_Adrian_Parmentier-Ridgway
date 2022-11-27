@@ -1,0 +1,33 @@
+.image {
+    width: 40%;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 2em;
+    transition: 1s;
+    border: 3px solid rgb(255, 187, 0);
+}
+
+.moa{
+    height: 200px;
+    width: 150px;
+    margin-left: 100px ;
+}
+
+.image:hover{
+    border-radius: 0em;
+    transform: scale(1.025,1.025);
+}
+
+@media screen and (max-width: 800px){
+
+    .archi{
+        width: 100%;
+    }
+
+    .moa{
+        margin-left: 95px;
+        width: 200px;
+    }
+    
+}
+

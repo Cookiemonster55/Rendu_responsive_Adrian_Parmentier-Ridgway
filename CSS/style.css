@@ -1,0 +1,102 @@
+@import url('components/button.css');
+@import url('components/caroussel.css');
+@import url('components/images.css');
+@import url('components/axes.css');
+@import url('components/section.css');
+@import url('components/grid.css');
+@import url('components/animation.css');
+
+body{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar{
+
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+}
+
+.navbar ul{
+
+    display: flex;
+    justify-content: flex-end; 
+    justify-content: space-between;
+    margin-right: 30px;  
+    margin: 10px;
+
+}
+
+.navbar h1{
+    margin: 10px;
+}
+
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.Name{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.separateur{
+    width: 90%;
+    height: 10px;
+    margin-left: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: lightgrey;
+}
+
+.carousel{
+    background-color: lightgrey;
+}
+
+footer{
+    background-color: lightblue;
+    height: 20px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+@media screen and (max-width: 800px){
+    
+    .navbar ul{
+        display: inline;
+    }
+
+    .navbar h1{
+        margin-left: 35%;
+    }
+
+    .presentation{
+        justify-content: center;
+    }    
+
+    .presentation p{
+        margin-left: 70px;
+    }
+
+    .description{
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 400px;
+
+    }
+
+
+}
